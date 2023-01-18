@@ -12,6 +12,7 @@
 		17F2DCEC29789655006EB8B0 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F2DCEB29789655006EB8B0 /* AuthViewController.swift */; };
 		17F2DCF129789659006EB8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F2DCF029789659006EB8B0 /* Assets.xcassets */; };
 		17F2DCF429789659006EB8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F2DCF229789659006EB8B0 /* LaunchScreen.storyboard */; };
+		17F2DCFC29789D23006EB8B0 /* RegisterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F2DCFB29789D23006EB8B0 /* RegisterTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		17F2DCF029789659006EB8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F2DCF329789659006EB8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17F2DCF529789659006EB8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F2DCFB29789D23006EB8B0 /* RegisterTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				17F2DCE729789655006EB8B0 /* AppDelegate.swift */,
 				17F2DCE929789655006EB8B0 /* SceneDelegate.swift */,
 				17F2DCEB29789655006EB8B0 /* AuthViewController.swift */,
+				17F2DCFB29789D23006EB8B0 /* RegisterTextField.swift */,
 				17F2DCF029789659006EB8B0 /* Assets.xcassets */,
 				17F2DCF229789659006EB8B0 /* LaunchScreen.storyboard */,
 				17F2DCF529789659006EB8B0 /* Info.plist */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F2DCFC29789D23006EB8B0 /* RegisterTextField.swift in Sources */,
 				17F2DCEC29789655006EB8B0 /* AuthViewController.swift in Sources */,
 				17F2DCE829789655006EB8B0 /* AppDelegate.swift in Sources */,
 				17F2DCEA29789655006EB8B0 /* SceneDelegate.swift in Sources */,
