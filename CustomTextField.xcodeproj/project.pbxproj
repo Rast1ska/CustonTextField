@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		17F2DCE829789655006EB8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F2DCE729789655006EB8B0 /* AppDelegate.swift */; };
 		17F2DCEA29789655006EB8B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F2DCE929789655006EB8B0 /* SceneDelegate.swift */; };
-		17F2DCEC29789655006EB8B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F2DCEB29789655006EB8B0 /* ViewController.swift */; };
-		17F2DCEF29789655006EB8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F2DCED29789655006EB8B0 /* Main.storyboard */; };
+		17F2DCEC29789655006EB8B0 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F2DCEB29789655006EB8B0 /* AuthViewController.swift */; };
 		17F2DCF129789659006EB8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F2DCF029789659006EB8B0 /* Assets.xcassets */; };
 		17F2DCF429789659006EB8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F2DCF229789659006EB8B0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -19,8 +18,7 @@
 		17F2DCE429789655006EB8B0 /* CustomTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F2DCE729789655006EB8B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17F2DCE929789655006EB8B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17F2DCEB29789655006EB8B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		17F2DCEE29789655006EB8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17F2DCEB29789655006EB8B0 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		17F2DCF029789659006EB8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F2DCF329789659006EB8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17F2DCF529789659006EB8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,8 +56,7 @@
 			children = (
 				17F2DCE729789655006EB8B0 /* AppDelegate.swift */,
 				17F2DCE929789655006EB8B0 /* SceneDelegate.swift */,
-				17F2DCEB29789655006EB8B0 /* ViewController.swift */,
-				17F2DCED29789655006EB8B0 /* Main.storyboard */,
+				17F2DCEB29789655006EB8B0 /* AuthViewController.swift */,
 				17F2DCF029789659006EB8B0 /* Assets.xcassets */,
 				17F2DCF229789659006EB8B0 /* LaunchScreen.storyboard */,
 				17F2DCF529789659006EB8B0 /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				17F2DCF429789659006EB8B0 /* LaunchScreen.storyboard in Resources */,
 				17F2DCF129789659006EB8B0 /* Assets.xcassets in Resources */,
-				17F2DCEF29789655006EB8B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17F2DCEC29789655006EB8B0 /* ViewController.swift in Sources */,
+				17F2DCEC29789655006EB8B0 /* AuthViewController.swift in Sources */,
 				17F2DCE829789655006EB8B0 /* AppDelegate.swift in Sources */,
 				17F2DCEA29789655006EB8B0 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		17F2DCED29789655006EB8B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17F2DCEE29789655006EB8B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		17F2DCF229789659006EB8B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +280,9 @@
 				INFOPLIST_FILE = CustomTextField/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +290,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = salakhoff.CustomTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +311,9 @@
 				INFOPLIST_FILE = CustomTextField/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +321,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = salakhoff.CustomTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
